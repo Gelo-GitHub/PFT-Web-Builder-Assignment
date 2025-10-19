@@ -361,7 +361,8 @@ body {
 
 @media (max-width: 768px) {
   .marci-metzger {
-    height: 1px;
+    height: 300px !important;
+    min-height: 300px !important;
   }
 
   .marci-content h1 {
