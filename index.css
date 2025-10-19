@@ -359,10 +359,9 @@ body {
   color: white;
 }
 
-/* Mobile adjustments */
 @media (max-width: 768px) {
   .marci-metzger {
-    height: 300vh;
+    height: 70vh;
   }
 
   .marci-content h1 {
