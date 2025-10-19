@@ -304,12 +304,13 @@ body {
 
 @media (max-width: 768px) {
   .marci-metzger {
+    height: 80vh;
     background-attachment: scroll;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
   }
 }
+
 
 
 .marci-metzger h1 {
