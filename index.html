@@ -1,0 +1,267 @@
+<html>
+    <head>
+        <title>PFT | Web Builder Assignment</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="header">
+            <img src="more.svg" alt="more" class="more-img">
+            <img src="logo.webp" alt="logo" class="logo-img">
+            <img src="search.svg" alt="more" class="search-img">
+        </div>
+        <div id="sidebar" class="sidebar">
+          <button class="close-btn" onclick="closeSidebar()">×</button>
+          <ul>
+            <li><a href="https://marcimetzger.com/">HOME</a></li>
+            <li><a href="https://marcimetzger.com/listings">LISTINGS</a></li>
+            <li><a href="https://marcimetzger.com/lets-move">LET'S MOVE</a></li>
+            <li><a href="https://marcimetzger.com/about-us">ABOUT US</a></li>
+          </ul>
+        </div>
+        <div id="searchPopup" class="popup-overlay">
+          <div class="popup-content">
+            <button class="close-popup">&times;</button>
+            <h2>Search Listings</h2>
+
+        <form class="search-form">
+          <div class="form-group">
+            <div class="form-row">
+              <label>Location</label>
+              <select><option></option></select>
+            </div>
+            <div class="form-row">
+              <label>Type</label>
+              <select><option></option></select>
+            </div>
+            <div class="form-row">
+              <label>Sort By</label>
+              <select>
+                <option>Newest</option>
+                <option>Oldest</option>
+                <option>Least Expensive to Most</option>
+                <option>Most Expensive to Least</option>
+                <option>Bedrooms (Low to High)</option>
+                <option>Bedrooms (High to Low)</option>
+                <option>Bathrooms (Low to High)</option>
+                <option>Bathrooms (High to Low)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="form-row">
+              <label>Bedrooms</label>
+              <select>
+                <option>Any Number</option>
+                <option>Studio</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+                <option>4+</option>
+                <option>5+</option>
+                <option>6+</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label>Baths</label>
+              <select>
+                <option>Any Number</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+                <option>4+</option>
+                <option>5+</option>
+                <option>6+</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group price-range">
+            <label>Price Range</label>
+            <div class="price-inputs">
+              <input class="price-min" type="text" placeholder="Min Price" />
+              <span class="dash">-</span>
+              <input class="price-max" type="text" placeholder="Max Price" />
+            </div>
+          </div>
+
+          <button class="search-btn">Search Now</button>
+        </form>
+
+            <div class="credentials">
+              <div class="credentials-logos">
+                <img src="ridge.webp" alt="Ridge">
+                <img src="equalHousing.webp" alt="equalHousing">
+                <img src="realtor.webp" alt="realtor">
+                <img src="pahrumpValley.webp" alt="pahrumpValley">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="marci-metzger">
+            <p>MARCI METZGER - THE RIDGE REALTY GROUP</p>
+            <h1>Pahrump Realtor</h1>
+            <button class="call-button">Call Now</button>
+        </div>
+        <div class="marci-metzger-img">
+            <h1>MARCI METZGER</h1>
+            <img src="mari metzger.webp" alt="more">
+            <p>REALTOR FOR NEARLY 3 DECADES!</p>
+            <p>206-919-6886</p>
+        </div>
+        <div class="sales-section">
+            <h2>GET IT SOLD</h2>
+
+            <div class="sales-item">
+              <img src="kitchen.webp" alt="Kitchen Interior">
+              <div class="sales-text-content">
+                <h3>Top Residential Sales Last 5 Years</h3>
+                <p>We helped nearly 90 clients in 2021, and closed 28.5 million in sales! Our team works hard every day to grow and learn, so that we may continue to excel in our market. Our clients deserve our best, and we want to make sure our best is better every year.</p>
+              </div>
+            </div>
+          
+            <div class="sales-item">
+              <div class="sales-text-content">
+                <h3>Don't Just List it...</h3>
+                <p>Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.</p>
+              </div>
+              <img src="house.webp" alt="Luxury Home">
+            </div>
+          
+            <div class="sales-item">
+              <img src="keys.webp" alt="House Keys">
+              <div class="sales-text-content">
+                <h3>Guide to Buyers</h3>
+                <p>Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists, contractors on speed dial, and more!</p>
+              </div>
+            </div>
+        </div>
+        <div class="photo-gallery">
+            <h2>PHOTO GALLERY</h2>
+            <div class="gallery-display">
+                <button class="gallery-arrow left">&#10094;</button>
+                <img id="main-image" src="photo gallary 1.webp" alt="Main Image">
+                <button class="gallery-arrow right">&#10095;</button>
+            </div>
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="photo gallary 1.webp" alt="Thumb 1">
+              <img class="thumbnail" src="photo gallary 2.webp" alt="Thumb 2">
+              <img class="thumbnail" src="photo gallary 3.webp" alt="Thumb 3">
+              <img class="thumbnail" src="photo gallary 4.webp" alt="Thumb 4">
+              <img class="thumbnail" src="photo gallary 5.webp" alt="Thumb 5">
+              <img class="thumbnail" src="photo gallary 6.webp" alt="Thumb 6">
+              <img class="thumbnail" src="photo gallary 7.webp" alt="Thumb 7">
+            </div>
+        </div>
+        <div class="services-section">
+            <h2>OUR SERVICES</h2>
+          
+            <div class="services-grid">
+              <div class="services-item">
+                <img src="real estate.webp" alt="real estate">
+                <div class="services-text-content">
+                  <h3>Real Estate Done Right</h3>
+                  <p>
+                    Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!
+                  </p>
+                </div>
+              </div>
+          
+              <div class="services-item">
+                <img src="commercial residential.webp" alt="commercial residential">
+                <div class="services-text-content">
+                  <h3>Commercial & Residential</h3>
+                  <p>
+                    Large or small, condo or mansion, we can find it and get at the price that's right. Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this community. Happy to help you find where to put your hard-earned dollars.
+                  </p>
+                </div>
+              </div>
+          
+              <div class="services-item">
+                <img src="expertise.webp" alt="expertise">
+                <div class="services-text-content">
+                  <h3>Rely on Expertise</h3>
+                  <p>
+                    If you have questions about affordability, credit, and loan options, trust us to connect you with the right people to get the answers you need in a timely fashion. We make sure you feel confident and educated every step of the way.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="call-section">
+            <h2>CALL OR VISIT</h2>
+
+            <div class="contact-container">
+              <div class="contact-form">
+                <h3>Send Message</h3>
+                <form>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Your name">
+
+                  <label for="email">Email*</label>
+                  <input type="email" id="email" placeholder="Your email" required>
+
+                  <label for="message">Message</label>
+                  <textarea id="message" rows="5" placeholder="Your message"></textarea>
+
+                  <button type="submit" class="send-btn">SEND</button>
+                  <p style="font-size: 12px;">
+                    This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+                  </p>
+
+                </form>
+              </div>
+
+              <div class="contact-info">
+                <a href="https://api.whatsapp.com/send/?phone=14259412560&text&type=phone_number&app_absent=0" class="whatsapp-btn">💬 Message us on WhatsApp</a>
+
+                <h3>Marci Metzger - THE RIDGE REALTY GROUP</h3>
+                <p>3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
+                <p>(206) 919-6886</p>
+
+                <div class="office-hours">
+                  <h4>Office Hours</h4>
+                  <p>Open daily <strong>8:00 am – 7:00 pm</strong></p>
+                  <p>Appointments outside office hours available upon request. Just call!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="googleMap-section">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.3633600000003!2d-116.00911278475064!3d36.2102362800785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8d8c73f0e1e1d%3A0xa2cbafef!2s3190%20NV-160%2C%20Pahrump%2C%20NV%2089048%2C%20USA!5e0!3m2!1sen!2sph!4v1702100000000"
+              width="100%"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+
+          <div class="socials-section">
+            <div class="socialMedia-logos">
+              <a href="https://www.facebook.com/MarciHomes/" target="_blank">
+                <img src="facebook.svg" alt="Facebook">
+              </a>
+              <a href="https://www.instagram.com/marciandlauren_nvrealtors/" target="_blank">
+                <img src="instagram.svg" alt="Instagram">
+              </a>
+              <a href="https://www.linkedin.com/in/marci-metzger-30642496/" target="_blank">
+                <img src="linkedin.svg" alt="LinkedIn">
+              </a>
+              <a href="https://www.yelp.com/biz/marci-metzger-the-ridge-realty-pahrump" target="_blank">
+                <img src="yelp.svg" alt="Yelp">
+              </a>
+            </div>
+            <p>Copyright © 2023 Marci METZGER Homes - All Rights Reserved</p>
+          </div>
+
+
+    </body>
+</html>
