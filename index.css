@@ -389,56 +389,6 @@ body {
   margin: 10px 0;
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-  /* Shorten hero height for mobile */
-  .marci-metzger {
-    height: auto;
-    min-height: 500px;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 100px;
-    padding-bottom: 60px;
-  }
-
-  /* Adjust image scaling */
-  .marci-bg {
-    object-fit: cover;
-    object-position: center top;
-  }
-
-  /* Text adjustments (keep your font hierarchy) */
-  .marci-metzger h1 {
-    font-size: 48px;
-    margin: 10px 0;
-  }
-
-  .marci-metzger p {
-    font-size: 20px;
-    margin: 10px 0;
-  }
-
-  /* Button remains stylistically identical */
-  .call-button {
-    padding: 15px 30px;
-    font-size: 18px;
-  }
-
-  /* Optional: shrink the photo section a bit */
-  .marci-metzger-img img {
-    width: 250px;
-  }
-
-  .marci-metzger-img h1 {
-    font-size: 28px;
-  }
-
-  .marci-metzger-img p {
-    font-size: 16px;
-  }
-}
-
-
 .sales-section {
   background-color: white;
   padding: 60px 20px;
