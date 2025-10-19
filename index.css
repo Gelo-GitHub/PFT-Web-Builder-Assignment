@@ -362,7 +362,7 @@ body {
 /* Mobile adjustments */
 @media (max-width: 768px) {
   .marci-metzger {
-    height: 70vh; /* reduce height for mobile */
+    height: 300vh;
   }
 
   .marci-content h1 {
